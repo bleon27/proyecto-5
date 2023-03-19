@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.76e3444e.css",
+    "main.js": "/static/js/main.0f4ea61a.js",
+    "static/js/787.22edae46.chunk.js": "/static/js/787.22edae46.chunk.js",
+    "static/media/electrica2.jpg": "/static/media/electrica2.7668813f4a1d573b23fb.jpg",
+    "static/media/acustica.jpg": "/static/media/acustica.5b11f9cf9ef4744933cd.jpg",
+    "static/media/Choosing-the-Best-Guitar-Body-Style-Featured-Image.jpg": "/static/media/Choosing-the-Best-Guitar-Body-Style-Featured-Image.c95a2bee86bc7b99d4b3.jpg",
+    "static/media/cuales-son-las-clases-de-guitarras-que-existen-portada.jpg": "/static/media/cuales-son-las-clases-de-guitarras-que-existen-portada.05780ac424034c67d92f.jpg",
+    "static/media/Portada-CORRECTA-02-01-1536x1067.jpg": "/static/media/Portada-CORRECTA-02-01-1536x1067.9a5583fc3d62045b68eb.jpg",
+    "static/media/cuerdas3.jpg": "/static/media/cuerdas3.1fe06391c988234a29ed.jpg",
+    "static/media/amplificador.jpg": "/static/media/amplificador.a2dd456f8ebe45da7d95.jpg",
+    "static/media/Top-5-de-las-mejores-guitarras-del-mundo-Noticias-de-Ecuador.jpg": "/static/media/Top-5-de-las-mejores-guitarras-del-mundo-Noticias-de-Ecuador.e9a2f83ee74c9e867508.jpg",
+    "static/media/logo.png": "/static/media/logo.8997941c1b29b1ea9a50.png",
+    "static/media/logo2.png": "/static/media/logo2.26ef02ef0b52468aeeb8.png",
+    "index.html": "/index.html",
+    "main.76e3444e.css.map": "/static/css/main.76e3444e.css.map",
+    "main.0f4ea61a.js.map": "/static/js/main.0f4ea61a.js.map",
+    "787.22edae46.chunk.js.map": "/static/js/787.22edae46.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76e3444e.css",
+    "static/js/main.0f4ea61a.js"
+  ]
+}
