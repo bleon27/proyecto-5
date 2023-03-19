@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.76e3444e.css",
-    "main.js": "/static/js/main.0f4ea61a.js",
+    "main.js": "/static/js/main.dcd5fd83.js",
     "static/js/787.22edae46.chunk.js": "/static/js/787.22edae46.chunk.js",
     "static/media/electrica2.jpg": "/static/media/electrica2.7668813f4a1d573b23fb.jpg",
     "static/media/acustica.jpg": "/static/media/acustica.5b11f9cf9ef4744933cd.jpg",
@@ -15,11 +15,11 @@
     "static/media/logo2.png": "/static/media/logo2.26ef02ef0b52468aeeb8.png",
     "index.html": "/index.html",
     "main.76e3444e.css.map": "/static/css/main.76e3444e.css.map",
-    "main.0f4ea61a.js.map": "/static/js/main.0f4ea61a.js.map",
+    "main.dcd5fd83.js.map": "/static/js/main.dcd5fd83.js.map",
     "787.22edae46.chunk.js.map": "/static/js/787.22edae46.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.76e3444e.css",
-    "static/js/main.0f4ea61a.js"
+    "static/js/main.dcd5fd83.js"
   ]
 }
