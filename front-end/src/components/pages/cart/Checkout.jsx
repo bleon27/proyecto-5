@@ -58,10 +58,10 @@ export default function Checkout() {
                                     </thead>
                                     <tbody>
                                         {
-                                            productList.length === false ? (
+                                            productList.length === 0 ? (
                                                 <tr><td align='center' colSpan={5}>Carrito vacio</td></tr>
                                             )
-                                                : cart === false ? (
+                                                : cart.length === 0 ? (
                                                     <tr><td align='center' colSpan={5}>Carrito vacio</td></tr>
                                                 )
                                                     : (
