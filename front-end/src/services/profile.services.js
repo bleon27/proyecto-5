@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = "http://localhost:9000";
+const API_URL = process.env.REACT_APP_API_HOST;
 
 export const getProfile = async () => {
     let token = localStorage.getItem("token");

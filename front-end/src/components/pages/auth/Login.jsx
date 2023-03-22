@@ -33,7 +33,7 @@ const LoginView = () => {
                 <Container>
                     <Row id='login' className="align-items-center flex-column-reverse">
                         <Col md={6} lg={6} sm={6} className='d-flex justify-content-end pe-5'>
-                            <Form onSubmit={onSubmitLogin}>
+                            <Form style={{ minWidth: '300px' }} onSubmit={onSubmitLogin}>
                                 <h1 className='text-center fw-bolder text-white'>Ingreso</h1>
                                 <div className='text-center mb-2 text-white'>Aun no estas registrado? <span className='link-light'>Registrate</span></div>
                                 <Form.Group className="mb-3" controlId="email">

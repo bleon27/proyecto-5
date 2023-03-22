@@ -1,5 +1,4 @@
 import React from 'react'
-import { Row, Col } from "react-bootstrap";
 import Table from 'react-bootstrap/Table';
 
 const CartResume = ({ resume }) => {

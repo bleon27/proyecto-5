@@ -2,7 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import React, { useState, useEffect } from 'react';
 
-export default function (props) {
+export default function Product (props) {
     const [url, setUrl] = useState('');
 
     const Url = (() => {

@@ -22,7 +22,7 @@ function Footer() {
                     </div>
 
                     <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-                        <li className="ms-3"><a className="text-muted" target="_blank" href="https://www.facebook.com/">
+                        <li className="ms-3"><a className="text-muted" rel="noreferrer" target="_blank" href="https://www.facebook.com/">
                             <Image
                                 alt=""
                                 src={facebook}
@@ -31,7 +31,7 @@ function Footer() {
                             />
                         </a>
                         </li>
-                        <li className="ms-3"><a className="text-muted" target="_blank" href="https://www.instagram.com/">
+                        <li className="ms-3"><a className="text-muted" rel="noreferrer" target="_blank" href="https://www.instagram.com/">
                             <Image
                                 alt=""
                                 src={instagram}
@@ -39,7 +39,7 @@ function Footer() {
                                 style={{ objectFit: 'contain' }}
                             />
                         </a></li>
-                        <li className="ms-3"><a className="text-muted" target="_blank" href="https://twitter.com/?lang=es">
+                        <li className="ms-3"><a className="text-muted" rel="noreferrer" target="_blank" href="https://twitter.com/?lang=es">
                             <Image
                                 alt=""
                                 src={gorjeo}

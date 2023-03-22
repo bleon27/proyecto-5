@@ -1,9 +1,9 @@
 import axios from 'axios';
 
-const API_URL = "http://localhost:9000";
+const API_URL = process.env.REACT_APP_API_HOST;
 
 export const getProductList = async (tipo) => {
-
+    console.log(`${API_URL}/product/tipo/${tipo}`)
     const response = await axios.get(`${API_URL}/product/tipo/${tipo}`);
     return response;
 }

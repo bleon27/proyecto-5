@@ -3,7 +3,6 @@ import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Table from 'react-bootstrap/Table';
 import { CartContext } from '../../../context/cartContext';
@@ -13,7 +12,7 @@ import CartResume from './CartResume';
 import Paypal from '../../partials/Paypal';
 import { UserContext } from '../../../context/userContext';
 
-export default function () {
+export default function Checkout() {
     const { token } = useContext(UserContext);
     const { cart, cartResume } = useContext(CartContext)
     const [productList, setProductList] = useState([])
@@ -59,10 +58,10 @@ export default function () {
                                     </thead>
                                     <tbody>
                                         {
-                                            productList.length == false ? (
+                                            productList.length === false ? (
                                                 <tr><td align='center' colSpan={5}>Carrito vacio</td></tr>
                                             )
-                                                : cart == false ? (
+                                                : cart === false ? (
                                                     <tr><td align='center' colSpan={5}>Carrito vacio</td></tr>
                                                 )
                                                     : (

@@ -4,7 +4,7 @@ import amplificador from '../../img/instrumentos/amplificador.jpg';
 import cuerdas from '../../img/instrumentos/cuerdas3.jpg';
 import guitarraAcustica from '../../img/instrumentos/acustica.jpg';
 
-export default function () {
+export default function Home () {
     return (
         <>
             <Slide />

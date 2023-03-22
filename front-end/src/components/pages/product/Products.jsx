@@ -22,7 +22,7 @@ export default function Products() {
 
     useEffect(() => {
         loadProductList();
-    }, [])
+    })
 
     const onProductAdded = (product) => {
         addItem(product)

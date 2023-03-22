@@ -19,7 +19,7 @@ function NavbarGeneral() {
 
     const loadAccountInfo = async (token) => {
         const response = await accountInfo(token);
-        if (response.status == 200) {
+        if (response.status === 200) {
             setUser(response.data);
         }
     }

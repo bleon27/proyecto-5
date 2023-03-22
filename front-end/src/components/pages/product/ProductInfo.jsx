@@ -8,7 +8,7 @@ import { getProduct } from '../../../services/product.services';
 import React, { useState, useEffect, useContext } from 'react';
 import { CartContext } from '../../../context/cartContext';
 
-export default function () {
+export default function ProductInfo() {
     const { addItem } = useContext(CartContext)
     const { id } = useParams();
     const [image, setImage] = useState('');
@@ -38,7 +38,7 @@ export default function () {
 
     useEffect(() => {
         loadProduct();
-    }, [])
+    })
 
     return (
         <>
