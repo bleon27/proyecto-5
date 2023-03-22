@@ -43,7 +43,7 @@ const createUser = async (req, res) => {
             newUser.hashPassword(req.body.password);
             await newUser.save();
 
-            var newProfile = new Profile({
+            await Profile.collection.insertOne({
                 names: req.body.names,
                 lastnames: req.body.lastnames,
                 age: req.body.age,
@@ -54,7 +54,6 @@ const createUser = async (req, res) => {
                 city: req.body.city,
                 id_user: newUser.id
             });
-            await newProfile.save();
 
             res.json({
                 "result": newUser
