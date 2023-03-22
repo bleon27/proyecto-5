@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const UniqueValidator = require('mongoose-unique-validator');
 
 const ProfileSchema = new mongoose.Schema({
     names: {
@@ -7,45 +8,49 @@ const ProfileSchema = new mongoose.Schema({
     },
     lastnames: {
         type: String,
-        require: true
+        require: false
     },
     age: {
         type: Number,
         //min: [18, "se require ser mayor de 18"],
-        require: true
+        require: false
     },
     ci: {
         type: String,
+        require: false
     },
     address: {
         type: String,
-        require: true
+        require: false
     },
     postal_code: {
         type: String,
+        require: false
     },
     country: {
         type: String,
+        require: false
     },
     city: {
         type: String,
+        require: false
     },
     id_user: {
         type: String,
-        required: true
-    }
-    /*,
-    created_at: {
-        type: String,
+        required: true,
+        unique: true
+    },
+    createdAt: {
+        type: Date,
         default: Date.now
     },
-    updated_at: {
-        type: String,
+    updatedAt: {
+        type: Date,
         default: Date.now
-    }*/
+    }
 });
 
-//UserSchema.plugin(UniqueValidator, { message: "el correo ya existe" })
+ProfileSchema.plugin(UniqueValidator, { message: "el usuario ya existe" })
 
 const Profile = mongoose.model("Profile", ProfileSchema);
 
