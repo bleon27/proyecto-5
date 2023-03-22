@@ -44,7 +44,7 @@ export default function EditProfile() {
         if (response.status === 200) {
             MySwal.fire({
                 //title: <strong>Actualizacion</strong>,
-                html: <>actualización exitosa</>,
+                html: <>Actualización exitosa</>,
                 icon: 'success'
             })
         }
